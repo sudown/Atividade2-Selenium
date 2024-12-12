@@ -109,7 +109,6 @@ def cadastrar_aluno():
 
         print("Teste CT004 – Sucesso: Edição concluída com sucesso.")
 
-        time.sleep(2)
 
         # Passo 8: Remover o aluno cadastrado
         botao_remover = WebDriverWait(driver, 10).until(
